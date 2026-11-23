@@ -1,0 +1,31 @@
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 240px;
+  padding: 24px;
+}
+.menu-item {
+  width: 100%;
+}
+.menu-link {
+  display: block;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 8px;
+  transition:
+    background-color 250ms ease,
+    color 250ms ease,
+    transform 250ms ease;
+}
+
+.menu-link:hover,
+.menu-link:focus-visible {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  transform: translateX(4px);
+}
